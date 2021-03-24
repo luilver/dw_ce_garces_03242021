@@ -6,11 +6,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 - Error handlers
-- Ffaker
 - Rspec Suite
-- Seedings
 - Shoulda
 - SimplCov
+
+## [Version 0.1.0]
+### Add
+- Ffaker
+- Models
+- Customers API
+- Orders API
+- Product API
+- Seedings
+- Services
 
 ## [Version 0.0.2]
 ### Add

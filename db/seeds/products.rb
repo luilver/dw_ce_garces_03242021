@@ -8,5 +8,6 @@ puts 'Inserting products...'
   sku = "#{FFaker::Lorem.word[0...3]}#{Random.rand 1000}" 
   name = FFaker::Name.name
   description = FFaker::Lorem.paragraph
+  quantity = Random.rand 100
   Product.create!(name: name, description: description, sku: sku)
 end

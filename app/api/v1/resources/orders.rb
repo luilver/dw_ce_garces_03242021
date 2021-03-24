@@ -14,6 +14,8 @@ module V1
             requires :sku
           end
           post :orders do
+            ::Products::Inventory.call(sku: params[:sku])
+
             order = ::Orders::Factory.call(customer_id: params[:customer_id],
               sku: params[:sku])
 

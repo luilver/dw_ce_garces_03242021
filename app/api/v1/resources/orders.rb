@@ -10,6 +10,15 @@ module V1
 
             present orders
           end
+          params do
+            requires :sku
+          end
+          post :orders do
+            order = ::Orders::Factory.call(customer_id: params[:customer_id],
+              sku: params[:sku])
+
+            present order
+          end
         end
       end
     end

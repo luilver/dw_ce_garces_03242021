@@ -22,6 +22,7 @@ git clone git@github.com/luilver/dw_ce_garces_03242021.git
 
 ```
 cd dw_ce_garces_03242021
+git checkout development
 bundle
 ```
 
@@ -48,3 +49,21 @@ rails s
 Open your browser and point to: 
 
 http://localhost:3000/v1/swagger_doc.json
+
+## Advanced
+
+### Check out advanced branch
+
+```
+git checkout advanced
+```
+
+### Run testings
+
+```
+rake
+```
+
+#### Note:
+
+Advanced branch already fails some test due to incompleteness of the assessment.

@@ -11,6 +11,7 @@ module V1
 
     helpers Helpers::Base
 
+    mount Resources::Customers
     mount Resources::Verify
 
     add_swagger_documentation api_version: 'v1',

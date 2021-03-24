@@ -7,11 +7,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 - Error handlers
 - Ffaker
-- Grape API
 - Rspec Suite
 - Seedings
 - Shoulda
 - SimplCov
+
+## [Version 0.0.2]
+### Add
+- Grape API
 - Swagger
 
 ## [Version 0.0.1]

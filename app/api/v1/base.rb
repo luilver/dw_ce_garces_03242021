@@ -13,6 +13,7 @@ module V1
 
     mount Resources::Customers
     mount Resources::Orders
+    mount Resources::Products
     mount Resources::Verify
 
     add_swagger_documentation api_version: 'v1',

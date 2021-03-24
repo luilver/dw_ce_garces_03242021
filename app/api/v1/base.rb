@@ -12,6 +12,7 @@ module V1
     helpers Helpers::Base
 
     mount Resources::Customers
+    mount Resources::Notifications
     mount Resources::Orders
     mount Resources::Products
     mount Resources::Verify
